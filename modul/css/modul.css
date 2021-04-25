@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none; 
+}
+/* timer */
+.timer__head {
+    top: 70px;
+    position: sticky;
+    display: flex;
+    z-index: 1;
+}
+.timer__invis {
+    display: none;
+}
+/* ---- */
+/* modul info */
+.moddul__info{
+    position: relative;
+}
+.modinfo__body {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+/* ---- */
+/* test */
+.test__body {
+    position: relative;
+    padding-bottom: 50px;
+}
+.question {
+    background-color: #edb664;
+    padding: 10px;
+    margin-top: 20px;
+}
+.text-center {
+    padding-bottom: 8px;
+}
+.qu__ol{
+    padding-left: 25px;
+}
+.btn-block {
+    background-color: #ff9100;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 25px;
+    outline: none;
+}
+#time{
+    font-size: 28px;
+    color: #dc143c;
+}
+.qu__time{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background-color: #d1d1d1;
+    padding: 6px;
+}
+/* ---- */
+/* popap */
+.popap__body {
+    position: fixed;
+    top: -150%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 150px 10px 20px 10px;
+    z-index: 1;
+  }
+  .popap__body.active {
+    top: 0;
+  }
+  .popap__body.close{
+      top: -150%;
+  }
+  .popap__content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    min-height: 400px;
+    background-color: #888888;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .cencel{
+      position: absolute;
+      top: 20px;
+      right: 30px;
+  }
+  .popap__cencel{
+      position: relative;
+  }
+  .popap__cencel::before{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 20px;
+    height: 2px;
+    transform: rotate(45deg);
+  }
+  .popap__cencel::after{
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    width: 20px;
+    height: 2px;
+    transform: rotate(-45deg);
+}
+  #rezultat{
+      color: #fff;
+      font-size: 26px;
+  }
+/* ---- */
