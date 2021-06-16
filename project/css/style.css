@@ -55,6 +55,10 @@ body{
     line-height: 150%;
     padding-top: 11px;
     padding-bottom: 11px;
+    transition: ease all 0.5s;
+}
+.header__href:hover{
+    background-color: rgba(255, 255, 255, 0.233);
 }
 .header__href:nth-child(4){
     border-right: none;
@@ -91,6 +95,10 @@ body{
     text-decoration: none;
     color: #fff;
     text-align: center;
+    transition: ease all 0.5s;
+}
+.main__btn:hover{
+    transform: scale(1.10);
 }
 /* ----- */
 /* adaptiv */
@@ -111,6 +119,5 @@ body{
 
 
 /* info */
-/* сделать бургер в шапке, сделать анимацию наплывания менюхи в шапке.
-сделать адаптив первого блока. */
+/* все сделано */
 /* ---- */
