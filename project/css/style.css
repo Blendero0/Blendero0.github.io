@@ -10,6 +10,7 @@
 }
 body{
     background-color: #000;
+    min-width: 350px;
 }
 /* font */
 @font-face{
@@ -88,9 +89,24 @@ body{
     line-height: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff
+    color: #fff;
+    text-align: center;
 }
 /* ----- */
+/* adaptiv */
+@media (max-width: 720px){
+.main{
+    background-size: cover;
+}
+}
+
+@media (max-width: 420px){
+.main__btn{
+    font-size: 12px;
+}
+}
+/* ------ */
+
 
 
 
