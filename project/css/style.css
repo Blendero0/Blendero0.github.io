@@ -2,3 +2,99 @@
     padding: 0;
     margin: 0;
 }
+.conteiner {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body{
+    background-color: #000;
+}
+/* font */
+@font-face{
+    font-family: Montserrat;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+/* ---- */
+/* header */
+.header{
+    position: sticky;
+    top: 0;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.header__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: #fff;
+}
+.header__bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.header__href {
+    width: 100%;
+    border: 1px solid #fff;
+    border-left: none;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.header__href:nth-child(4){
+    border-right: none;
+}
+/* ---- */
+/* main */
+.main {
+    position: relative;
+    background-image: url(../img/bgc__1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.main__body {
+}
+.main__bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 60vh;
+}
+.main__bottom span{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main__btn {
+    background: #998431;
+    padding: 15px 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff
+}
+/* ----- */
+
+
+
+/* info */
+/* сделать бургер в шапке, сделать анимацию наплывания менюхи в шапке.
+сделать адаптив первого блока. */
+/* ---- */
