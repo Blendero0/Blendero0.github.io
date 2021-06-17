@@ -271,6 +271,21 @@ body{
 .main{
     background-size: cover;
 }
+.new__body{
+    text-align: center;
+}
+.img__a{
+    max-width: 400px;
+}
+.right__bottom{
+    justify-content: center;
+}
+.right__bottom img{
+    max-width: 185px;
+}
+.right__bottom span{
+    padding: 0px 15px 0px 15px;
+}
 }
 
 @media (max-width: 420px){
