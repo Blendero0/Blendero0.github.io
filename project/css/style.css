@@ -255,6 +255,121 @@ body{
     justify-content: space-between;
 }
 /* ---- */
+/* degust */
+.degust {
+    background-color: #282828;
+    min-height: 100vh;
+    height: 100%;
+}
+.degust__body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
+.degust__flex{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border: 3px solid #C4C4C4;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.degust__flex hr{
+    max-width: 118px;
+    width: 100%;
+    margin: 0 auto;
+}
+.degust__title {
+    position: absolute;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    top: -35px;
+    background: #282828;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.degust__text {
+    max-width:  539px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.form__top {
+    display: flex;
+    justify-content: space-between;
+    max-width:  539px;
+}
+.form__top span{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.degust__form{
+    max-width: 540px;
+    width: 100%;
+}
+.form__top input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    width: 100%;
+}
+.degust__img{
+    position: absolute;
+    top: -80px;
+}
+.degust__img:nth-child(1){
+    left: -10px;
+}
+.degust__img:nth-child(2){
+    right: -10px;
+}
+.input__adr{
+    background: transparent;
+    width: 100%;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.input__btn{
+    margin-top: 50px;
+    width: 100%;
+    background: transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 0px;
+    border: 1px solid #fff;
+}
+/* ---- */
+
+
 
 
 
