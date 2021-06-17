@@ -286,6 +286,9 @@ body{
 .right__bottom span{
     padding: 0px 15px 0px 15px;
 }
+.new__left hr{
+    margin: 0 auto;
+}
 }
 
 @media (max-width: 420px){
