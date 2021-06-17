@@ -17,6 +17,10 @@ body{
     font-family: Montserrat;
     src: url(../font/Montserrat-Regular.ttf);
 }
+@font-face{
+    font-family: Playfair Display;
+    src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
+}
 /* ---- */
 /* header */
 .header{
@@ -101,6 +105,59 @@ body{
     transform: scale(1.10);
 }
 /* ----- */
+/* citate */
+.citate{
+    background: #282828;
+}
+.citate__body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.citate__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #C4C4C4;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.citate__title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.citate__block hr{
+    min-width: 160px;
+    border: 1px solid #FFFFFF;
+}
+.citate__text {
+    max-width: 733px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.citate__img {
+}
+/* ---- */
+
+
+
+
 /* adaptiv */
 @media (max-width: 720px){
 .main{
