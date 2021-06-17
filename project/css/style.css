@@ -298,6 +298,20 @@ body{
 .citate__text{
     font-size: 12px;
 }
+.img__a{
+    max-width: 300px;
+}
+.right__bottom span{
+    padding: 0;
+}
+.right__bottom{
+    display: block;
+    text-align: center;
+}
+.right__bottom img{
+    max-width: 300px;
+    width: 100%;
+}
 }
 /* ------ */
 
