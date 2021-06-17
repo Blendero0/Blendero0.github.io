@@ -279,6 +279,8 @@ body{
     border: 3px solid #C4C4C4;
     padding-top: 50px;
     padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .degust__flex hr{
     max-width: 118px;
@@ -375,11 +377,21 @@ body{
 
 
 /* ADAPTIV */
+@media (max-width: 1200px){
+    .degust__img{
+        max-width: 200px;
+        top: -50px;
+    }
+}
 @media (max-width: 1000px){
 .new__body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.degust__img{
+    max-width: 100px;
+    top: -40px;
 }
 }
 @media (max-width: 720px){
@@ -403,6 +415,19 @@ body{
 }
 .new__left hr{
     margin: 0 auto;
+}
+.degust__img{
+    max-width: 50px;
+    top: -25px;
+}
+.degust__title{
+    font-size: 26px;
+    top: -25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.degust__text{
+    font-size: 14px;
 }
 }
 
@@ -429,6 +454,19 @@ body{
 .right__bottom img{
     max-width: 300px;
     width: 100%;
+}
+.degust__img{
+    max-width: 35px;
+    top: -15px;
+}
+.degust__title{
+    font-size: 20px;
+    top: -20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.degust__text{
+    font-size: 12px;
 }
 }
 /* ------ */
